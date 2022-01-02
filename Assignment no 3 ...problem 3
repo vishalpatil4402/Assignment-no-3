@@ -1,0 +1,16 @@
+# program
+x = input("original string:")
+upper = 0
+lower = 0
+for i in x:
+    if (i.isupper()):
+        upper += 1
+    if (i.islower()):
+        lower += 1
+print("no of upper case alphabates:",upper)
+print("no of lower case alphabates:",lower) 
+
+# result
+original string:'The quick Brow Fox'
+no of upper case alphabates: 3
+no of lower case alphabates: 12
