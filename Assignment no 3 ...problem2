@@ -1,0 +1,7 @@
+# program
+x = input("enter a string:")
+print(x[-1: :-1])
+
+# result
+enter a string:"1234abcd"
+"dcba4321"
