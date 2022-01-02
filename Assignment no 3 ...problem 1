@@ -1,0 +1,28 @@
+# program
+a = []
+size = int(input("enter number of elememts: "))
+for i in range(size):
+    ele = int(input("enter the element:"))
+    a.append(ele)
+sum = 0
+for i in range(size):
+    sum = sum +a[i]
+items_in_string = []
+for i in a:
+    items_in_string.append(str(i))
+print ("+".join(items_in_string))
+print("sum of elements:",sum)
+lhs = "+".join(items_in_string)
+rhs = sum
+print("summation:",lhs+"="+str(rhs))
+
+# result
+enter number of elememts: 5
+enter the element:8
+enter the element:2
+enter the element:3
+enter the element:0
+enter the element:7
+8+2+3+0+7
+sum of elements: 20
+summation: 8+2+3+0+7=20
