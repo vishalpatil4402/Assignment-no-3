@@ -1,0 +1,12 @@
+# problem
+def reverse(str):
+    str = str[ : :-1]
+    return str
+x = input("enter a string:")
+print("The Original string:",x)
+print("The reversed string:",reverse(x))
+
+# result
+enter a string: "1234abcd"
+The Original string:  "1234abcd"
+The reversed string: "dcba4321" 
